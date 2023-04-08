@@ -2,6 +2,6 @@
 {
     public partial class TrangChu_Items_kpis
     {
-
+           
     }
 }
