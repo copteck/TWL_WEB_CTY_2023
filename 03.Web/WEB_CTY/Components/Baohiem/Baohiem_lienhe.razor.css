@@ -1,0 +1,80 @@
+﻿.baohiem-khung {
+    min-height: 700px;
+    /*background-image: url(../images/background/gold/gold_backround_01.png);*/
+    background-image: url(../images/background/giatriketnoi_04.jpg);
+    background-color: #f5f5f5d9;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.baohiem-khung .khung-absolute{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:#2b2b2bc1;
+    display:inline-block;
+    padding: 100px 0;
+    text-align:center;
+}
+
+.baohiem-khung .baohiem-content
+{
+    max-width:600px;
+    background-color: #86868668;
+    min-height: 400px;
+    position:relative;
+    color:#000000ff;
+    text-align:left;
+    display:inline-block;
+    padding: 40px 30px;
+    border-radius:10px;
+
+}
+
+
+    .baohiem-khung .baohiem-content .title{
+        font-family: Tahoma;
+        padding: 20px 10px;
+        font-size:26px;
+        text-align:center;
+        /*text-shadow: 1px 1px #2b2b2bc1;*/
+        color:greenyellow;
+    }
+
+.khung-absolute table td   {
+    font-weight:bold;
+    color:#e4e4e4ff;
+}
+
+
+    .khung-absolute table td .form-control{
+        margin:5px 0;
+        box-shadow:#2a2a2aac 1px 1px 2px 2px ;
+        font-weight:bold;
+    }
+
+    .khung-absolute table td button {
+        margin: 15px 0;
+        box-shadow: #c8c8c8bb 3px 3px 8px 8px;
+        padding: 15px 50px;
+        font-weight: bold;
+        min-width: 200px;
+        color: #ffffffff;
+        font-family: 'Times New Roman';
+    }
+
+
+.baohiem-khung .baohiem-content tr:last-child td {
+    text-align: center;
+}
+
+
+.baohiem-khung .baohiem-content tr td{
+    font-family:'Times New Roman';
+}
+ 

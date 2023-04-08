@@ -1,0 +1,223 @@
+﻿.khung-banner{
+    width:100%;
+    text-align:left;
+    display:inline-block;
+    margin-top:0px;
+   position:relative;
+   overflow:hidden;
+}
+
+.khung-banner img {
+    width: 100%;
+    display: inline-block;
+    /*height: calc(100vh);*/
+}
+
+.khung-banner .banner-content{
+    display:block;
+    width:100%;
+    position:absolute;
+    height:100%;
+    width:100%;
+    bottom:10px;
+    left:10px;
+
+}
+
+
+
+    .khung-banner .banner-content .items {
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 200px;
+        left: 50px;
+        border: solid 5px #28fa4172;
+        z-index: 1;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        
+    }
+
+        .khung-banner .banner-content .items:nth-child(2) {            
+        left: 270px;
+        z-index: 2;
+        bottom:200px;
+            
+        }
+
+        .khung-banner .banner-content .items:nth-child(3) {
+        bottom: 0px;
+        left: 160px;
+        z-index: 2;
+        border: solid 2px #cfcfcf;
+        border: solid #28fa41ff 8px;
+        animation: animation_boxshadow_green_rotate 20s linear infinite;
+        }
+
+        .khung-banner .banner-content .items:nth-child(3)::before {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        content: '';
+        background-color: #28fa41ff;
+        top: 42px;
+        right: 10px;
+        border-radius: 50%;
+        box-shadow: 
+        0 0 0 5px #28fa4169,
+        0 0 0 10px #28fa4169,
+        0 0 0 5px #28fa4169;
+                            
+                
+        }
+
+
+        .khung-banner .banner-content .items  label{
+        font-weight:bold;
+        color:#cfcfcf;
+        font-size:30px;       
+        padding:100px 0px;
+        text-align:center;
+        text-shadow:#ff6a00a8 1px 1px;
+        margin-left:0px;
+        }
+
+        .khung-banner .banner-content .items:nth-child(2) label {
+        padding: 80px 0 0 0;
+        margin-left: 30px;
+        }
+
+        .khung-banner .banner-content .items:nth-child(3) label {
+        padding-left: 0px;
+        animation: animation_boxshadow_green_rotate_360 20s linear infinite;
+        }
+
+
+
+    .khung-banner .banner-content .toasang {
+        position: absolute;
+        height: 400px;
+        width: 43%;
+        bottom: 70px;
+        left: 413px;
+        border-right: #28fa418d 10px solid;
+        border-bottom: #28fa4172 10px solid;
+        border-bottom-right-radius: 330px;
+    }
+
+
+    .khung-banner .banner-content .toasang span {
+        position: absolute;
+        right: -13px;
+        top: -10px;
+        width: 25px;
+        height: 25px;
+        background: #124aaeff;
+        border-radius: 50%;
+        transform: rotate(13deg);
+        box-shadow: 0 0 0 5px #28fa4169, 0 0 0 10px #28fa4169, 0 0 0 5px #28fa4169, 0 0 0 20px #28fa4169, 0 0 0 10px #28fa4169, 0 0 0 25px #28fa4169;
+        animation: hieuung_baohiem_phattrien 5s linear infinite;
+    } 
+
+   
+ 
+         
+
+
+
+    @keyframes hieuung_baohiem_phattrien{
+
+        from {
+            box-shadow: 0 0 0 5px #28fa4169, 0 0 0 10px #28fa4169, 0 0 0 5px #28fa4169, 0 0 0 20px #28fa4169, 0 0 0 10px #28fa4169, 0 0 0 25px #28fa4169;
+        }
+
+        to {
+            box-shadow: 0 0 0 20px #28fa4169, 0 0 0 30px #28fa4169, 0 0 0 30px #28fa4169,0 0 0 30px #28fa4169,30px 30px 0 5px #28fa4169,
+            0 0 0 30px #28fa4169;
+        }
+    }
+
+
+
+
+
+
+
+
+@keyframes animation_boxshadow {
+
+
+    from {
+        box-shadow: #ff6a00a8 3px 4px 5px;
+    }
+
+    to {
+        box-shadow: #ff6a00a8 1px 3px 20px 20px;
+    }
+}
+
+
+
+
+@keyframes animation_boxshadow_green {
+
+
+    from {
+        box-shadow: #28fa41ff 3px 4px 5px;
+    }
+
+    to {
+        box-shadow: #28fa41ff 1px 3px 20px 20px;
+    }
+}
+
+
+
+
+@keyframes animation_boxshadow_green_rotate {
+
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+       transform:rotate(360deg);
+    }
+}
+
+
+
+@keyframes animation_boxshadow_green_rotate_360 {
+
+
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* code responsive*/
+
+
+
+
+
+
+

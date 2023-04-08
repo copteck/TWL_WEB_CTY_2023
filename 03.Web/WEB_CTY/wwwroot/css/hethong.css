@@ -1,0 +1,42 @@
+﻿.khung-page-main{
+    margin:0;
+    padding:0;
+    width:100%;
+    position:relative;
+}
+
+.khung-body {
+    margin-top: -70px;    
+    width: 100%;
+    display:block;
+}
+
+.layout-khung {
+    width: calc(100%);
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+    .layout-khung .content,
+    .layout-khung-conent {
+        width: 1280px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }
+@media screen and (max-width:1366px)
+{
+
+    .layout-khung-conent,
+   .layout-khung .content{
+        width:100%;
+    }
+
+}
+li:hover,
+a:hover{
+    cursor:pointer;
+    transition:all 1s ease;
+}

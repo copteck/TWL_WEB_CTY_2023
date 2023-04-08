@@ -1,0 +1,135 @@
+﻿.content-details
+{
+
+    display:inline-block;
+    width:100%;
+    padding:20px 0;
+    text-align:left;
+    font-family: 'Times New Roman' !important;
+}
+
+
+    .content-details .items-tittle {
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+        text-align: left;
+        font-size: 23px;
+    }
+
+
+        .content-details .items-tittle i {
+            font-size: 25px;
+            padding: 0 10px 0 0;
+            color: #07395e;
+        }
+
+
+.content-details .items{
+    width:450px;
+    padding:20px 10px;
+    
+}
+
+
+    .content-details .items-tittle-layer {
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .content-details .items-tittle-layer i{
+       
+     
+        padding: 0 10px 0 0 ;
+        font-size:25px;
+        color:#07395e;
+      
+    }
+
+
+    .content-details span span{
+        font-weight:bold;
+        font-style:italic;
+        color:#07395e;
+    }
+
+.items-content{
+    display:inline-block;
+    text-align:center;
+
+}
+
+    .items-content .items {
+        display: inline-block;
+        padding: 20px 15px;
+        font-size: 21px;
+        box-shadow: #808080 1px 1px 8px 8px;
+        margin: 40px 20px;
+        background-color: transparent;
+        border-radius: 10px;
+        text-align: center;
+        width: 330px;
+        transition: all 1s ease-in;
+        vertical-align:top;
+    }
+
+
+    .items-content .items:hover {
+        cursor: pointer;
+        background-color: #e5e5e5;
+        transition: all 1s ease-in;
+        box-shadow: #808080 1px 1px 10px 10px;
+    }
+
+
+        .items-content .items img {
+       max-height:200px;
+       display:inline-block;
+       text-align:center;
+       padding:0 0 20px 0;
+    }
+
+
+    .items-content .items i {
+        text-align:center;
+        display: inline-block;
+        width: 100%;
+        font-size: 58px;
+        padding-right: 10px;
+        color: #157411;
+        padding:20px;
+        vertical-align:middle;
+    }
+
+
+.items-content .items span{
+        
+    display:inline-block;
+    width:100%;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Times New Roman';
+    min-height:85px;
+
+}
+
+
+@media screen and (max-width:640px) {
+ 
+
+    .khung-item-kpis .items {
+        width: 90%;
+        margin: 30px 5%;
+        height: auto !important;
+        min-height: auto !important;
+        display: inline-block;
+        position: relative;
+    }
+
+        .khung-item-kpis .items .items-layer {
+            position: relative;
+            padding: 40px 10px;
+        }
+}

@@ -1,0 +1,104 @@
+﻿.khung-item-kpis {
+    display: inline-block;
+    width: 100%;
+    /*background-color: #ffffffff;*/
+    background-image: url('images/background/white/white_backround.jpg');
+    background-size: 100% 100%;
+}
+
+    .khung-item-kpis .title {
+        font-weight: bold;
+        color: #132663;
+        padding: 80px 0 30px 0;
+        font-weight: bold;
+        font-size: 30px;
+        text-shadow: #393939ff 1px 1px;
+    }
+
+
+    .khung-item-kpis .items {
+        width: 500px;
+        height: 500px;
+        padding: 20px;
+        margin: 30px 40px;
+        display: inline-block;
+        /*border-radius: 30px;*/
+        /*box-shadow: #727272ff 4px 5px 15px 15px;*/
+        box-shadow: #c7c6c691 5px 5px 15px 15px inset;
+        /*background-image: url(../images/background/giatriketnoi_01.jpg);*/
+        background-color: transparent;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: hidden;
+        transition: all 1s ease;
+    }
+
+
+
+
+
+        /*
+    .khung-item-kpis .items:nth-child(2n) {
+        background-image: url(../images/background/gold/gold_backround_01.png);
+    }
+
+    .khung-item-kpis .items:nth-child(3n) {
+        background-image: url(../images/background/gold/gold_backround_02.png);
+    }
+
+        .khung-item-kpis .items:nth-child(4n) {
+            background-image: url(../images/background/gold/gold_backround_03.png);
+        }*/
+
+        .khung-item-kpis .items:hover {
+            cursor: pointer;
+            box-shadow: #c7c6c691 15px 15px 35px 35px inset;
+            transition: all 1s ease;
+        }
+
+
+
+        .khung-item-kpis .items .items-layer {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: #ededed26;
+            padding: 50px;
+            text-align: center;
+        }
+
+
+            .khung-item-kpis .items .items-layer img {
+                max-height: 190px;
+            }
+
+            .khung-item-kpis .items .items-layer i {
+                font-size: 80px;
+                color: #ed510ce2;
+                font-weight: bold;
+                text-shadow: #c4c3c3e0 3px 2px;
+            }
+
+            .khung-item-kpis .items .items-layer .title {
+                font-weight: bold;
+                font-size: 27px;
+                color: #042549ff;
+                text-shadow: #c4c3c3e0 1px 1px;
+                padding: 0;
+            }
+
+
+            .khung-item-kpis .items .items-layer .items-content {
+                color: #1a1a1a;
+                text-align: justify;
+                font-size: 17px;
+            }
+
+                .khung-item-kpis .items .items-layer .items-content div {
+                    padding: 5px 0;
+                    color: #132663;
+                    font-size: 18px;
+                }

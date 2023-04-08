@@ -1,0 +1,13 @@
+﻿<div class="twls-menu">
+    <ul>
+        @if (lst_Data!=null)
+        {
+            <li><a href="/"><img src="../images/hethong/logo.png" /></a></li>
+            foreach (var items in lst_Data)
+            {
+                <li><a href="@items.url">@items.ten_chucnang</a></li>               
+            }
+        }
+    </ul>
+
+</div>

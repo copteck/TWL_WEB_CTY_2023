@@ -1,0 +1,169 @@
+﻿
+.tinhnang-sanpham-khung {
+    min-height: calc(100vh);
+    /*background-image: url(../images/background/giatriketnoi_04.jpg);*/
+    background-image: url('images/background/white/white_background.png');
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.tinhnang-sanpham-khung .baohiem-content{
+    padding:50px 0;
+}
+
+
+    .tinhnang-sanpham-khung .baohiem-content .title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #06285c;
+        font-family:Tahoma;
+    }
+
+
+    .tinhnang-sanpham-khung .baohiem-content .title span:first-child {
+        font-size: 40px;
+        font-weight: bold;
+        color: #06285c;
+        display: inline-block;
+        width: 100%;
+        padding: 15px;
+        text-shadow: 2px 2px #d3d3d3;
+    }
+
+    .tinhnang-sanpham-khung .items-ds {
+        display:inline-block;
+        padding:20px  0;
+        width:100%;
+        text-align:center;
+    }
+
+    .tinhnang-sanpham-khung .items {
+        display:inline-block;
+        margin:40px;
+        background:#ededed70;
+        min-height:350px;
+        width:510px;
+        box-shadow: #808080 1px 1px 14px 14px;
+        vertical-align:top;
+        padding: 20px  0;
+        border-radius:40px;
+    }
+
+    .tinhnang-sanpham-khung .items:hover{
+        cursor:pointer;
+        transition:all 1s   ease;
+        opacity:0.6;
+    }
+
+
+        .tinhnang-sanpham-khung .items:hover .left img {
+            height: 210px;
+            transition: all 1s   ease;
+        }
+
+    .tinhnang-sanpham-khung .items .title {
+        width: 100%;
+        display: inline-block;
+    }
+
+        
+
+    .tinhnang-sanpham-khung .items .left {
+        width: 100%;
+        min-height: 50px;
+        display: inline-block;
+    }
+
+
+        .tinhnang-sanpham-khung .items .left i {
+            font-weight:bold;
+            font-size:80px;
+            color:#3a7aee;
+            text-shadow:#ededed70 5px 5px ;
+        }
+
+        .tinhnang-sanpham-khung .items .left img {
+            height:180px;
+            border-radius:3px;
+            
+        }
+
+
+
+
+
+    .tinhnang-sanpham-khung .items .title .right {
+        width: 100%;
+        display:inline-block;
+        text-align:center;
+        vertical-align:top;
+        padding: 5px 30px;
+         
+    }
+
+
+    .tinhnang-sanpham-khung .items .title .right span {
+        font-size: 20px;
+        color: #06285c;
+        font-family:Tahoma;
+        word-spacing:3px;
+        text-shadow:none;
+    }
+
+    .tinhnang-sanpham-khung .items .title .right span label {
+        color: #3a49ee;
+    }
+
+        .tinhnang-sanpham-khung .items .items-content {
+            text-align: center;
+            padding: 10px 50px;
+            font-family: Tahoma;
+            font-size: 16px;
+            display:none !important;
+        }
+
+
+        .tinhnang-sanpham-khung .items .items-content {
+           min-height:200px;
+
+        }
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .tinhnang-sanpham-khung .baohiem-content .title {
+        font-size: 14px;
+        
+    }
+
+        .tinhnang-sanpham-khung .baohiem-content .title span:first-child {
+            font-size: 17px;
+           
+        }
+
+    .tinhnang-sanpham-khung .items {
+        
+        margin: 40px 20px;
+        width:400px;
+        
+    }
+
+
+}
+
+@media screen and (max-width:500px) 
+{   
+
+    .tinhnang-sanpham-khung .items {
+        margin: 40px 5%;
+        width: 90%;
+    }
+}

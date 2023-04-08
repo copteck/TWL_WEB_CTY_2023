@@ -1,0 +1,67 @@
+﻿@import url(../dungchung_items/items_kpi.css);
+
+.khung-kpi{
+    min-height:400px;
+    width:100%;
+    
+}
+
+.khung-kpi .banner {
+    /*min-height: 700px !important;*/
+    width: 100%;
+    overflow:hidden;
+    /*background-image: url('../../images/page_kpi/KPI_Tuyendung.png');
+    background-size: 100% 100%;
+    background-color: #ff6a00;*/
+}
+
+.khung-kpi .banner img{
+    max-width:100%;
+    
+}
+
+    .khung-kpi .khung-conent .title{
+        font-weight:bold;
+        font-size:35px;
+        padding:30px 10px;
+        color:#021b57;
+        text-shadow:#dbdbdb 2.5px;
+        
+    }
+
+
+  .khung-kpi-khac {
+      padding: 50px 0;
+        width:100%;
+        text-align:left;
+       display:inline-block;
+    }
+    .khung-kpi-khac .khung-kpi-khac-title {
+        width: 100%;
+        display: inline-block;        
+        background: linear-gradient(to right, #021b57, #eaeaea00);
+        padding: 0 0 3px 0;
+        border-radius: 0 0 0 10px;
+        background-color: #ff6a00;
+    }
+
+
+.khung-kpi-khac-title .title-content {
+    width: 100%;
+    /*box-shadow: #021b57  0px 5px ;*/
+    border: none;
+    text-align: left;
+    padding: 0;
+    border-radius: 0 0px 0 10px;
+    background-color: white;
+    padding: 0 3px;
+}
+
+
+    .khung-kpi .khung-kpi-khac .kpi-chitiet{
+        min-height:300px;
+        background-color:white;
+    }
+
+
+

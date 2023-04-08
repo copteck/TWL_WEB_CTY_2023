@@ -1,0 +1,143 @@
+﻿.khung-footer {
+    width: 100%;
+    min-height: 300px;
+    padding: 90px 0;
+    margin: 0;
+    /*background-image: url('images/background/white/white_backround.jpg');*/
+    background-color:#151515c9 !important;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Tahoma;
+    font-size: 17px;
+    vertical-align: middle;
+    box-shadow: #565656b8 0 15px 0 0 initial;
+    position:relative;
+}
+
+.khung-footer .absolute{
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:#000000b7;
+    padding: 60px 0;
+     
+
+}
+
+.khung-footer:hover {
+    cursor: pointer;
+}
+
+.khung-footer a {
+    color: white;
+}  
+
+
+
+.khung-footer .left {
+    width: 250px;
+    display: inline-block;
+    text-align:left;
+}
+
+
+.khung-footer .left .img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: white;
+    padding: 40px 15px;
+    border-radius: 50%;
+    overflow:hidden;
+    text-align:center;
+    box-shadow: #808080  0px 0px 20px 20px;
+}
+
+
+.khung-footer .left img {
+    width: 170px;
+    height: 120px;
+    display: block;
+            
+}
+
+
+   
+
+
+
+.khung-footer .right {
+    width:600px;
+    display: inline-block;
+    margin:0px;
+    vertical-align:top;
+    min-height:200px;
+    text-align:left;
+    color:white;
+}
+
+
+
+
+.khung-footer .right i {
+    font-weight: bold;
+    padding: 0 15px;
+    font-size: 20px;
+    text-shadow: #808080 2px 2px;
+}
+
+
+
+
+.khung-footer table tr td{
+    padding:7px 0;
+    font-weight:normal;
+    font-size:14px;
+}
+
+
+.khung-footer table tr:first-child td:first-child i{
+        
+    font-size: 28px;
+}
+
+.khung-footer table tr:first-child td:last-child {
+    font-weight:bold;
+    color:#e55f00ff;
+    font-size:26px;
+    /*text-shadow:#f7e23cba 1px 1px;*/
+    font-family:'Times New Roman';
+}
+
+
+
+
+@media screen and (max-width:1024px)
+{
+    .khung-footer table tr:first-child td:last-child {
+        font-weight: bold;
+        color: #e55f00ff;
+        font-size: 21px;
+    }
+
+
+    .khung-footer{
+        display:inline-block;
+        padding:0px;
+    }
+
+
+    .khung-footer .left,
+    .khung-footer .right {
+        width: 100%;
+        padding: 20px 25px;
+    }
+
+        
+    .khung-footer .absolute {
+        position:relative;
+    }
+}

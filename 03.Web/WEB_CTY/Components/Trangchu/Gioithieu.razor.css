@@ -1,0 +1,170 @@
+﻿ 
+
+.gioithieu-khung {
+    min-height: 700px;    
+    background-image: url('../images/background/digital/background_01.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    /*display:inline-block;*/
+}
+
+    .gioithieu-khung .khung-absolute {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #0000008f;
+        display: inline-block;
+        padding: 20px 0;
+    }
+
+    .gioithieu-khung .baohiem-content {
+        width: 100%;        
+        min-height: 200px;
+        padding: 30px;
+        border-radius: 30px;
+        position: relative;
+        color: #f5f5f5d9;
+        text-align: left;
+        overflow:hidden;
+    }
+
+
+
+
+    .gioithieu-khung .baohiem-content .left {
+        width: 450px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align:center;
+    }
+    .gioithieu-khung .baohiem-content .left .img-layer-01 {
+        display: inline-block;            
+    }
+
+    .gioithieu-khung .baohiem-content .left .img-layer-01 .khung{
+        margin-top:10px;
+        width: 250px;
+        height: 250px;
+        vertical-align: middle;
+        display: table-cell;
+        background-color: #fcfcfcd4;
+        border:none;
+        padding: 40px 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: #ffffffd9 0px 0px 40px 40px;
+
+    }
+
+    .gioithieu-khung .baohiem-content .left .img-layer-01 img {        
+        text-align:center;
+        display:table-cell;
+
+
+    }
+
+        .gioithieu-khung .baohiem-content .left .img-layer-02 img {
+            width:90%;
+            bottom: 0;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+
+
+    .gioithieu-khung .baohiem-content .right {
+        max-width: 650px;
+        min-height:550px;
+        display: inline-block;
+        background-color:#ffffffcf;
+        border-radius:30px;
+        vertical-align:middle;
+        padding:20px;
+        font-size:17px;
+        font-family:Tahoma;
+        color:#011342ff;
+        line-height:40px;
+
+    }
+
+
+   label.font-weight{
+       font-weight:bold;
+       font-size:16px;
+       font-style:italic;
+   }
+
+
+label.font-weight-center {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    text-align:center;
+    width:100%;
+    color:#016509;
+    text-shadow:#f5f5f5d9 2px 2px;
+}
+
+
+   .gioithieu-khung .right i{
+       font-weight:bold;
+       color:#029625;
+       font-size:25px;
+       font-style:italic;
+   }
+
+
+
+   @media screen and  (max-width:1200px){
+
+    .gioithieu-khung {
+        display: inline-block;
+        position: initial !important;
+        text-align:center;
+    }
+
+        .gioithieu-khung .khung-absolute {
+            position: relative;
+            display: inline-block;
+            padding:0;
+            margin:0;
+        }
+
+        .gioithieu-khung .baohiem-content .left[b-6oc9rbesol] {
+            display: block;
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+        }
+
+    .gioithieu-khung .right {
+        width: 100%;
+        max-width: 100% !important;
+        display:block;
+    }
+
+   }
+
+
+@media screen and (max-width:640px) {
+
+    .gioithieu-khung{
+        padding:0 !important;
+    }
+    .baohiem-content {
+        padding: 0 !important;
+        border-radius: 0 !important;
+    }
+
+        .gioithieu-khung .right {
+            width: 100%;
+            max-width: 100% !important;
+            display: block;
+            margin:0;
+            border-radius:0 !important;
+        }
+}
